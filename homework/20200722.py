@@ -3,7 +3,7 @@ for i in range(1, 10):
     for j in range(1, i+1):
         print("%s*%s=%s" % (j, i, j*i), end=" ")
     print()
-s = 10000
+s = 1000000
 
 while s < 1000:
     n = s % 1000
