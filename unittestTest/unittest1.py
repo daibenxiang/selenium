@@ -2,6 +2,7 @@ from selenium import webdriver
 import unittest
 import time
 
+
 class Baidu(unittest.TestCase):
 
     def setUp(self):
